@@ -1,5 +1,9 @@
 const AdminLogin = () => {
-    return <h1>admin login form</h1>
+    return(
+        <div className="bg-green-500">
+            login form
+        </div>
+    )
 }
 
 export default AdminLogin;

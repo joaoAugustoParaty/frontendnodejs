@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
@@ -39,6 +39,8 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      black1: "#030301",
+      black2: "#1a1d24",
     }),
     columns: {
       auto: 'auto',
